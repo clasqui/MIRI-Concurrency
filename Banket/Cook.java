@@ -1,8 +1,8 @@
 public class Cook extends Thread {
 
-    BadPot pot;
+    Pot pot;
 
-    public Cook(BadPot p) {
+    public Cook(Pot p) {
         this.pot = p;
     }
 
@@ -12,7 +12,8 @@ public class Cook extends Thread {
             try {
                 Thread.sleep(200);
                 pot.fillpot();
-            } catch (InterruptedException e) {};
+            } catch (InterruptedException e) {
+            }
         }
     }
 

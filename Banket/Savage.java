@@ -1,8 +1,8 @@
 public class Savage extends Thread {
 
-    BadPot pot;
+    Pot pot;
 
-    public Savage(BadPot p) {
+    public Savage(Pot p) {
         this.pot = p;
     }
 
@@ -12,9 +12,10 @@ public class Savage extends Thread {
             try {
                 Thread.sleep(200);
                 pot.getserving();
-            } catch (InterruptedException e) {};
+            } catch (InterruptedException e) {
+            }
+            ;
         }
     }
 
 }
-
