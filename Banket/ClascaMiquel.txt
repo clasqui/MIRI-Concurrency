@@ -1,0 +1,5 @@
+Marc Clascà Ramirez and Joan Miquel Solé
+
+1. Compare the approaches between Banket and BanketNoWait, which one is better (if any)? Argue your answer.
+
+In the Banket, we make all the process sleep when they are waiting for the cook to refill the banket. On the other hand, BanketNoWait, as the name mentions it, the savages does not need to wait to fill the banket and they can execute other tasks. So, in this case, BanketNoWait is better.

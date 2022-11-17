@@ -1,8 +1,8 @@
 public class Cook extends Thread {
 
-    Pot pot;
+    BadPotTwo pot;
 
-    public Cook(Pot p) {
+    public Cook(BadPotTwo p) {
         this.pot = p;
     }
 

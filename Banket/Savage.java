@@ -1,8 +1,8 @@
 public class Savage extends Thread {
 
-    Pot pot;
+    BadPotTwo pot;
 
-    public Savage(Pot p) {
+    public Savage(BadPotTwo p) {
         this.pot = p;
     }
 
